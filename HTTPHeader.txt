@@ -1,0 +1,70 @@
+HTTP HEADERS:
+
+GET
+https://www.googleapis.com/books/v1/volumes?q=Turing
+
+REQUEST HEADERS:
+
+cache-control:"no-cache"
+Tells all caching mechanisms from server to client whether they may cache this object. 
+
+postman-token:"6af72a8c-0780-47ad-bcbe-4b1956419b1b"
+Postman Token Header: Used to bypass a bug in Chrome
+
+user-agent:"PostmanRuntime/7.1.1"
+The user agent string of the user agent.
+
+accept:"*/*"
+Media types that are acceptable for the response.
+
+host:"www.googleapis.com"
+Domain name of the server.
+
+accept-encoding:"gzip, deflate"
+List of acceptable encodings. 
+
+RESPONSE HEADERS:
+
+expires:"Tue, 06 Feb 2018 18:38:32 GMT"
+Entity Header: indicates a timestamp of when the entity expires.  
+
+date:"Tue, 06 Feb 2018 18:38:32 GMT"
+Used to timestamp the request/response message.
+
+cache-control:"private, max-age=0, must-revalidate, no-transform"
+Tells all caching mechanisms from server to client whether they may cache this object. 
+
+etag:""f6QLsd8inUgRKJVNBqJ8xHnPb0w/8zUYA14R5wkpJ-equgsc5NG9QQA""
+An identifier for a specific version of a resource often a message digest
+
+vary: 0:"Origin" 1:"X-Origin"
+Tells downstream proxies how to match future request headers to decide whether
+the cached response can be used rather than requesting a fresh one from the
+origin server.
+
+content-type:"application/json; charset=UTF-8"
+Content-prefixed header providing information on content and media type.
+
+content-encoding:"gzip"
+Content-prefixed header providing information on type of encoding used on the data.
+
+x-content-type-options:"nosniff"
+Prevents Internet Explorer from MIME-sniffing a response away from the declared
+content type. Also applies to Google Chrome when downloading extensions.
+
+x-frame-options:"SAMEORIGIN"
+Clickjacking protection: same origin: no rendering if origin mismatch
+
+x-xss-protection:"1; mode=block"
+Cross-site scripting filter
+
+server:"GSE"
+Response Header: Server: Name for the server, Google Servlet Engine
+
+alt-svc:"hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35""
+Indicates its resources can also be accessed at a different network location or using a different protocol
+
+transfer-encoding:"chunked"
+Used to break the response into smaller parts with the chunked value, allows for streaming of response to the client instead of one big payload.
+
+
